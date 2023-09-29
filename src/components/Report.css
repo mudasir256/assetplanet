@@ -1,0 +1,31 @@
+.table.table-no--mb{
+    margin-bottom: 0px;
+}
+
+.report-action-button{
+    color: #007bff;
+    cursor: pointer;
+}
+
+.newClass{
+    padding: 10px 10px !important;
+    color: #4d5e80;
+     font-family: Poppins;
+      font-size: 12px;
+      font-weight: 400;
+}
+tr.ant-table-row.table-row-light.newClass.ant-table-row-level-0{
+    padding: 10px 10px !important;
+    color: #4d5e80;
+     font-family: Poppins;
+      font-size: 12px;
+      font-weight: 400;
+}
+th{
+    font-family: Poppins !important;
+    font-size: 14px !important;
+    font-weight: 300 !important; 
+    color: #030229 !important;
+    background-color: white !important;
+    
+}

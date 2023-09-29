@@ -1,0 +1,46 @@
+.subform-parent {
+  overflow: auto;
+  margin-bottom: 30px;
+}
+.heading-table {
+  overflow: auto;
+  /* margin-bottom: 30px; */
+  color: white;
+  background-color: #39b54a;
+}
+.heading-table-libilities {
+  overflow: auto;
+  /* margin-bottom: 30px; */
+  color: white;
+  background-color: #4351cf;
+}
+.subheading-table-libilities {
+  overflow: auto;
+  /* margin-bottom: 30px; */
+  color: white;
+  background-color: #eeeeee;
+}
+/* .ant-table-row-cell-last{
+  float: right !important;
+} */
+.subheading-text{
+font-weight: 500;
+text-align: center;
+color: black;
+font-size: 1rem !important;
+}
+.doc-upload > input {
+  display: none;
+}
+
+.select-custom {
+  width: max-content;
+  min-width: 100%;
+}
+
+.ant-calendar-picker-input.ant-input {
+  /* height: 3.5rem; */
+  border-radius: 0.2rem;
+  /* -webkit-box-shadow: 0 0 2px #c1c1c1; */
+  /* box-shadow: 0 0 2px #c1c1c1; */
+}

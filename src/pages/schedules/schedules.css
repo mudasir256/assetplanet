@@ -1,0 +1,133 @@
+.report-main-container {
+  padding: 20px;
+}
+
+.top-header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2vw;
+  padding-top: 1vw;
+}
+
+.top-header-2 {
+  padding-bottom: 2vw;
+  padding-top: 3vw;
+}
+
+.report-card-container {
+  height: 5vw;
+  cursor: pointer;
+  display: flex;
+}
+
+.report-left {
+  height: 100%;
+  width: 30%;
+  background: #3ab54b;
+  border-radius: 20px;
+  position: relative;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 4px 6px 4px lightgray;
+}
+.report-right {
+  height: 100%;
+  width: 70%;
+  background: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 4px 6px 4px lightgray;
+}
+
+.report-right-text {
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+  color: #619f7d;
+  font-family: "gilroy";
+  font-size: 1.3vw;
+  line-height: 1.7vw;
+}
+
+.report-top-text {
+  text-align: center;
+  color: black;
+  font-family: "gilroy";
+  font-size: 2.3vw;
+  line-height: 1.7vw;
+}
+
+.view-schedule-button {
+  background-image: linear-gradient(to bottom right, #39b54a, #0d723b);
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  padding-top: 0.3vw;
+  padding-bottom: 0.3vw;
+  border-radius: 15px;
+}
+
+.view-schedule-report-button {
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  font-family: "gilroy";
+  font-size: 1.2vw;
+  line-height: 1.5vw;
+}
+
+.view-schedule-report-header {
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+  text-align: center;
+  color: black;
+  font-family: "gilroy";
+  font-size: 1.6vw;
+  line-height: 2vw;
+}
+
+.view-schedule-report-flow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.schedule-card {
+  display: flex;
+  height: 24vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  box-shadow: 2px 4px 6px 4px lightgray;
+}
+
+.schedule-div-padding {
+  padding-bottom: 1vw;
+  padding-top: 1.7vw;
+}
+
+.top-dropdown-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin: 10px;
+  padding-bottom: 1vh;
+  padding-top: 1vh;
+  border-radius: 10px;
+  box-shadow: 2px 4px 6px 4px lightgray;
+}
+
+.dropdown-text {
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
+  color: black;
+  font-family: "gilroy";
+  font-size: 1.2vw;
+  line-height: 1.4vw;
+}

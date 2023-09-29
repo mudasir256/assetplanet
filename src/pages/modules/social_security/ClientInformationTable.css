@@ -1,0 +1,20 @@
+.card-information{
+    margin-bottom: 20px !important;
+}
+
+.info-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.info-title{
+    width: calc(50% - 20px);
+    font-weight: bold;
+    text-align: right;    
+}
+
+.info-value{
+    width: calc(50% - 20px);
+    text-align: left;
+}

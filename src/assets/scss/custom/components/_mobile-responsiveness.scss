@@ -1,0 +1,41 @@
+@include media-breakpoint-down(md) {
+  .left-side-menu {
+    display: none;
+  }
+
+  .left-sidebar--opened .left-side-menu {
+    display: block;
+  }
+  
+  .left-sidebar--collapsed .left-side-menu {
+    display: none;
+  }
+
+  .content-page {
+    margin-left: 0px !important;
+  }
+
+  .form-page--right-side {
+    display: none;
+  }
+
+  .navbar {
+    display: block !important;
+  }
+
+  .form-page--main-side{
+    width: 100% !important;
+  }
+
+  .module-block-link {
+    width: calc(50% - 10px) !important;
+
+    &:nth-child(2n+2) {
+      border-right: none;
+    }
+  }
+
+  .info-form-block.pl-5.pr-5 {
+    padding: 0 !important;
+  }
+}

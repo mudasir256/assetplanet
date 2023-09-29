@@ -1,0 +1,115 @@
+.dashboard-block {
+  background-color: rgba(209, 201, 201, 0.233);
+  width: calc(25% - 50px);
+  height: 110px;
+  border: 1px solid #040f0d;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flow-goals-list {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.change-flow {
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+  height: 250px;
+  border: 1px solid #040f0d;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.flow-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.dashboard-block-again-goals {
+  /* background-color: rgba(209, 201, 201, 0.233); */
+  /* width: calc(25% - 10px); */
+  height: 250px;
+  border: 1px solid #040f0d;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.goals-table-layout {
+  background-color: rgb(255, 255, 255);
+  height: 250px;
+  border: 1px solid #040f0d;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.goals-text {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 8px;
+}
+
+.dashboard-observation-block {
+  background-color: rgba(209, 201, 201, 0.233);
+  width: calc(100% - 5px);
+  height: 480px;
+  border: 1px solid #040f0d;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.dashboard-budget-block {
+  background-color: rgba(209, 201, 201, 0.233);
+  width: calc(100% - 5px);
+  height: 180px;
+  border: 1px solid #040f0d;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.flow-observation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.flow-observation-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.goals-title {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: row; */
+}

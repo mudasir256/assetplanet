@@ -1,0 +1,25 @@
+.transposed-table {
+  & table {
+    display: flex;
+
+    tr, td {
+      display: flex;
+      flex-direction: column;
+      white-space: nowrap;
+    }
+
+    tr > th {
+      font-size: 12px;
+    }
+  
+    td:first-child {
+      background: #fafafa;
+    }
+  
+    tbody {
+      display: flex;
+      position: relative;
+      overflow-x: auto;
+    }
+  }
+}

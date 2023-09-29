@@ -1,0 +1,23 @@
+.all-assets-block {
+  border: 1px solid #ddd;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgba(237, 237, 237, 0.4);
+  padding: 16px;
+}
+
+.all-assets-block span.ant-typography {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.all-assets-block h4.ant-typography {
+  font-size: 28px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.all-assets-block .ant-typography + h4.ant-typography {
+  margin-bottom: 0px;
+}
+/*# sourceMappingURL=AllAssets.css.map */

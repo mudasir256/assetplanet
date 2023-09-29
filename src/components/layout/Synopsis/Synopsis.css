@@ -1,0 +1,11 @@
+.synopsis-wrapper {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.synopsis-wrapper .ant-typography {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+}
+/*# sourceMappingURL=Synopsis.css.map */

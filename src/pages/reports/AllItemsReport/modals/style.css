@@ -1,0 +1,13 @@
+.all-items-navigation {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.all-items-navigation .ant-btn {
+  margin: 0 8px;
+}
+
+.all-items-navigation .ant-btn a {
+  color: #FFF !important;
+}
+/*# sourceMappingURL=style.css.map */

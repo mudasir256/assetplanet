@@ -1,0 +1,53 @@
+.asset-title {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: row; */
+}
+
+.asset-heading {
+  background-color: #3fac4e;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.RowContainer {
+  padding: 20px;
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.DelegateSection {
+  height: 100%;
+  margin-bottom: 15.5%;
+  padding-bottom: 1%;
+  width: 100%;
+}
+
+.DelegateClientSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.DelegateCard {
+  background: white;
+  box-shadow: 2px 6px 6px 6px lightgray;
+  height: 20rem;
+  border-radius: 5px;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+.DelegateHeading {
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+}
+
+.DelegateSubHeading {
+  margin-left: 3rem;
+  color: black;
+  margin-bottom: 4px;
+}

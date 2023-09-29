@@ -1,0 +1,315 @@
+@font-face {
+  font-family: gilroy;
+  src: url("../../../assets/fonts/Gilroy-Light.otf");
+}
+
+.heading-block {
+  color: green;
+}
+
+.background-color-social {
+  background-color: lightgreen;
+}
+
+.social-securtiy-block {
+  background-color: rgba(209, 201, 201, 0.233);
+  /* width: calc(100% - 5px); */
+  height: 10%;
+  border: 1px solid #040f0d;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  /* border-radius: 10px; */
+}
+
+.client-info-name {
+  box-shadow: 2px 6px 6px 6px lightgray;
+  border-radius: 20px;
+  background: white;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.percentage-card-container-social {
+  margin: 2%;
+  width: 90%;
+  background: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* box-shadow: 10px 0 10px lightgray; */
+}
+
+.percentage-header-text-custom {
+  color: black;
+  font-size: 1.8vw;
+  line-height: 2vw;
+  margin-top: 4%;
+}
+
+.social-white-block {
+  background-image: linear-gradient(to bottom right, #39b54a, #0d723b);
+  width: 100%;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  box-shadow: 2px 4px 2px 4px #0d723b;
+  /* position: absolute; */
+  z-index: 1;
+
+}
+.right-top-text{
+  margin-bottom: -1px;
+  text-align: center;
+  color: #0d723b;
+  font-size: 1.8vw;
+  font-family: "gilroy";
+}
+
+.right-text {
+  margin-bottom: -1px;
+  text-align: center;
+  color: white;
+  font-size: 1.8vw;
+  font-family: "gilroy";
+}
+
+.dollar-text {
+  margin-bottom: -1px;
+  text-align: center;
+  color: #0d723b;
+  font-size: 1.8vw;
+  font-family: "gilroy";
+}
+
+.dollar-box {
+  /* background-image: linear-gradient(to bottom right, #39b54a, #0d723b); */
+  background-color: white;
+  border-radius: 15px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-right: 5%;
+}
+
+.client-area {
+  display: flex;
+  flex-direction: column;
+  /* background-color: royalblue; */
+  align-items: center;  
+}
+
+.general-bar-social {
+  display: flex;
+  justify-content: center;
+  /* background-image: linear-gradient(to bottom right, #39b54a, #0d723b); */
+  background-color: white;
+  
+  width: 65%;
+  border-radius: 20px;
+  position: relative;
+  margin-bottom: -3%;
+  /* box-shadow: 20px 6px 6px 4px white; */
+  box-shadow: 2px 2px 8px 3px lightgrey;
+  /* border: 10px 10px 20px 20px gray; */
+}
+
+.table-container-social {
+  /* background-color: white; */
+  background-image: linear-gradient(to bottom right, #39b54a, #0d723b);
+  display: flex;
+  padding-bottom: 15px;
+  flex-direction: column;
+  width: 95%;
+  height: auto;
+  border-radius: 8px;
+  /* box-shadow: 2px 6px 6px 6px lightgray; */
+  box-shadow: 4px 2px 6px 5px lightgray;
+}
+
+.table-container-social1 {
+
+  padding-bottom: 25px;
+
+}
+
+.table-row-1-social {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 4%;
+  margin-bottom: 1%;
+}
+
+.table-row-2-social {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.table-price-border {
+  background-color: white;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  /* box-shadow: 2px 6px 6px 6px lightgray; */  
+  border-radius: 8px;
+}
+
+.row-title-width-social {
+  margin-bottom: -1px;
+  text-align: start;
+  color: white;
+  font-size: 1vw;
+  font-family: "gilroy";
+  width: 30%;
+}
+
+.table-column-value-social {
+  margin-bottom: -1px;
+  text-align: center;
+  color: #39b54a;
+  font-size: 1.3vw;
+  font-family: "gilroy";
+}
+
+.row-title-info-social {
+  margin-bottom: -1px;
+  text-align: start;
+  color: black;
+  font-size: 1vw;
+  font-family: "gilroy";
+}
+
+.row-title-info-social-white {
+  margin-bottom: -1px;
+  text-align: start;
+  color:  black;
+  font-size: 1vw;
+  font-family: "gilroy";
+}
+
+.general-item-socail {
+  margin-bottom: -1px;
+  text-align: start;
+  color: black;
+  font-size: 1.9vw;
+  font-family: "gilroy";
+}
+
+.synopsis-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-left: 2%;
+  margin-bottom: 3%;
+}
+
+.synopsis-border {
+  background-color: white;
+  box-shadow: 2px 6px 6px 6px lightgray;
+  width: 8%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+}
+.synopsis-value-border {
+  background-color: white;
+  box-shadow: 2px 6px 6px 6px lightgray;
+  width: 50%;
+  background-image: linear-gradient(to bottom right, #39b54a, #0d723b);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-left: -1%;
+}
+
+.social-title {
+  margin-bottom: -1px;
+  text-align: start;
+  color: black;
+  font-size: 1.9vw;
+  font-weight: 600;
+  font-family: "gilroy";
+}
+
+.social-benefit-title {
+  margin-bottom: -1px;
+  text-align: center;
+  color: white;
+  font-size: 1.9vw;
+  font-weight: 600;
+  font-family: "gilroy";
+}
+
+.lifetime-value-border {
+  background-color: white;
+  box-shadow: 2px 6px 6px 6px lightgray;
+  width: 100%;
+  /* background-image: linear-gradient(to bottom right, #39b54a, #0d723b); */
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 3%;
+}
+
+.lifetime-border-social {
+  background-image: linear-gradient(to bottom right, #39b54a, #0d723b);;
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+  box-shadow: 2px 6px 6px 6px lightgray;
+  border-radius: 6px;
+}
+
+.social-main-container {
+  margin: 2%;
+}
+
+.social-security-title {
+  margin-bottom: -1px;
+  text-align: start;
+  color: black;
+  font-size: 1.9vw;
+  font-weight: 500;
+  font-family: "gilroy";
+}
+
+.social-add-new-security-title {
+  margin-bottom: -1px;
+  text-align: start;
+  color: black;
+  font-size: 1.8vw;
+  font-weight: 500;
+  font-family: "gilroy";
+}
+
+.add-new-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 6px 6px 6px lightgray;
+  width: 10%;
+  height: 40%;
+  border-radius: 8px;
+  margin-left: 2%;
+}
+ 
+
+
+@media screen and (max-width: 768px) {
+.table-container-social1 {
+  padding-bottom: 15px;
+}
+}
